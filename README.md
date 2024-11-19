@@ -6,7 +6,7 @@
 ---
 
 ## 📂 TIL
-1. **🖊️[MySQL 문제풀이 (원본 Markdown)](https://raw.githubusercontent.com/jjalkyu/jjalkyu.github.io/main/mySQL_examination/mySQL_PROCEDURE.md)** 
+1. **🖊️[MySQL 문제풀이 (원본 Markdown)](https://github.com/jjalkyu/jjalkyu.github.io/blob/main/mySQL_examination/mySQL_PROCEDURE.md?raw=true)** 
    - MySQL의 다양한 문제 풀이...
 
 2. **[알고리즘 연습](https://jjalkyu.github.io/algorithm/2024/11/19/PassingCars/)**  
