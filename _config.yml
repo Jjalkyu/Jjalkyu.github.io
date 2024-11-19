@@ -1,7 +1,6 @@
 # 사이트 기본 설정
 title: "짤규의 TIL"
 description: "공부한내용 열심히 적어보자"
-permalink: /:categories/:year/:month/:day/:title/ # URL 패턴
 theme: just-the-docs
 
 # GitHub Pages에서 remote_theme 활성화
