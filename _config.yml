@@ -10,15 +10,9 @@ remote_theme: "just-the-docs/just-the-docs"
 
 # Just the Docs 관련 설정
 just_the_docs:
-    aux_links: # 상단 메뉴 링크
+  aux_links: # 상단 메뉴 링크
     "GitHub Repository":
       - "https://github.com/Jjalkyu/repository"
 
-
-
-
 # 사이트의 기본 정보
-
-baseurl: "/Jjalkyu.github.io"         # 레포지토리 이름이나 하위 URL 경로
-  # GitHub Pages의 기본 도메인
-
+baseurl: ""  # 레포지토리 이름이나 하위 URL 경로, GitHub Pages에서 페이지의 경로
