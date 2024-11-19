@@ -14,4 +14,4 @@ just_the_docs:
       - "https://github.com/Jjalkyu/repository"
 
 # 사이트의 기본 정보
-baseurl: ""  # 레포지토리 이름이나 하위 URL 경로, GitHub Pages에서 페이지의 경로
+baseurl: "/Jjalkyu.github.io"  # 레포지토리 이름이나 하위 URL 경로, GitHub Pages에서 페이지의 경로
