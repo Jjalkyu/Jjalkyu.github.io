@@ -6,3 +6,5 @@ url: "https://jjalkyu.github.io/"  # GitHub Pages의 기본 도메인
 
 # URL 구조 설정
 permalink: /:categories/:year/:month/:day/:title/ # URL 패턴
+# 마크다운으로 변환
+markdown: kramdown
