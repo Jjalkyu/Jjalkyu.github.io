@@ -2,15 +2,15 @@
 title: "짤규의 TIL"
 description: "공부한내용 열심히 적어보자"
 theme: just-the-docs
+url: "https://jjalkyu.github.io/"
+permalink: pretty
 
 # GitHub Pages에서 remote_theme 활성화
-remote_theme: just-the-docs/just-the-docs
+remote_theme: "just-the-docs/just-the-docs"
 
 # Just the Docs 관련 설정
 just_the_docs:
-  logo: "/assets/images/logo.png" # 로고 이미지 경로
-  favicon: "/assets/images/favicon.ico" # 파비콘 경로
-  aux_links: # 상단 메뉴 링크
+    aux_links: # 상단 메뉴 링크
     "GitHub Repository":
       - "https://github.com/Jjalkyu/repository"
 
@@ -20,5 +20,5 @@ just_the_docs:
 # 사이트의 기본 정보
 
 baseurl: "/Jjalkyu.github.io"         # 레포지토리 이름이나 하위 URL 경로
-url: "https://jjalkyu.github.io/"  # GitHub Pages의 기본 도메인
+  # GitHub Pages의 기본 도메인
 
