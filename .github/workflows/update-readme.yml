@@ -1,0 +1,30 @@
+name: Update README with today's date
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  update_readme:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Get today's date
+        id: date
+        run: echo "DATE=$(date '+%Y-%m-%d')" >> $GITHUB_ENV
+
+      - name: Update README.md with today's date
+        run: |
+          sed -i "s/{{ date }}/$DATE/" README.md
+          
+      - name: Commit changes
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+          git add README.md
+          git commit -m "자동으로 오늘의 날짜 업데이트"
+          git push
