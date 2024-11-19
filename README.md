@@ -7,6 +7,6 @@
 
 # TIL
 
-**🖊️ [SQL 문제 풀이](Jjalkyu.github.io/mySQL_examination/mySQL_PROCEDURE.md)**
+**🖊️ [SQL 문제 풀이](mySQL_examination/mySQL_PROCEDURE.md)**
 
 mySQL 문제풀이
