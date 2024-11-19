@@ -17,9 +17,7 @@ jobs:
 
       - name: Update README.md with today's date
         run: |
-          # 현재 날짜를 얻어오기
           TODAY=$(date +"%Y년 %m월 %d일")
-          # README.md 파일에서 날짜를 업데이트
           sed -i "s|**오늘의 날짜:** .*|**오늘의 날짜:** ${TODAY}|" README.md
 
       - name: Commit changes
